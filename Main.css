@@ -81,3 +81,7 @@ footer{
     font-weight: bolder;
     padding-top: 15px;
 }
+.wrongLogin{
+    color: red;
+    font-size: 20px;
+}
