@@ -21,7 +21,7 @@ function getInfo() {
 	for(var i = 0; i < objPeople.length; i++) {
 		// check is user input matches username and password of a current index of the objPeople array
 		if(username == objPeople[i].username && password == objPeople[i].password) {
-            location.href = "admin.html";
+            location.href = "studentPage.html";
 			console.log(username + " is logged in!!!")
 			// stop the function if this is found to be true
 			return
@@ -30,8 +30,7 @@ function getInfo() {
     
 	console.log("incorrect username or password")
     document.getElementById('print').innerHTML
-                = 'Invalid Login';
-            console.log("no")
+                = 'INVALID LOGIN';
 
     
 }
