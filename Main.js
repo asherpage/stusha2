@@ -1,22 +1,22 @@
 var objPeople = [
 	{ // Object @ 0 index
-		username: "sam",
-		password: "codify"
+		username: "asher",
+		password: "page"
 	},
 	{ // Object @ 1 index
-		username: "matt",
-		password: "academy"
+		username: "andrew68",
+		password: "1234"
 	},
 	{ // Object @ 2 index
-		username: "chris",
-		password: "forever"
+		username: "k-man",
+		password: "Bernie"
 	}
 
 ]
 
 function getInfo() {
-	var username = document.getElementById('username').value
-	var password = document.getElementById('password').value
+	var username = document.getElementById('username').value.toString();
+	var password = document.getElementById('password').value.toString();
 
 	for(var i = 0; i < objPeople.length; i++) {
 		// check is user input matches username and password of a current index of the objPeople array
