@@ -11,7 +11,6 @@ var objPeople = [
 		username: "k-man",
 		password: "Bernie"
 	}
-
 ]
 
 function getInfo() {
@@ -25,6 +24,7 @@ function getInfo() {
 			console.log(username + " is logged in!!!")
 			// stop the function if this is found to be true
 			return
+
 		}
 	}
     
