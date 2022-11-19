@@ -91,16 +91,32 @@ footer{
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-table, th, td {
+table, td {
     border: 2px solid black;
-    margin-top: 100px;
+    margin-top: 200px;
     height: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 5px;
-
+    padding: 0px 5px 5px 5px;
 }
 .topTable{
     height: 5px;
-    font-size: 15px;
+    font-size: 20px;
     padding: 0px,0px,0px,0px;
+    background-color: white;
+}
+.rowers{
+    text-align: center;
+}
+.c1{
+    background-color: #ECA1A1;
+}
+.c2{
+    background-color: #A1C9EC;
+}
+.c3{
+    background-color: #A3D5A1;
+}
+.c4{
+    background-color: #F9F3A7;
 }
