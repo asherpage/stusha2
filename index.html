@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Main.css">
-    <title>Admini Log in</title>
+    
+    <title>Student Shadow | Home</title>
 </head>
+    <link rel="icon/x-icon" href="./studentLOGO.PNG">
 <body>
     <header>
-    
+        
         <div class="header">
             <div><a href="./index.html"><img src="./luguh (2).PNG"></a></div>
             <div class="header-right">
@@ -19,26 +22,30 @@
             </div>
         </div>
     </header>
+<main>
     <div class="inputPage">
         <div class="inputBorder">
-            <h1> Admin Login Page</h1>
+            <h1> Student Login Page</h1>
             <form id="login" method="get" action="login.php">
                 <strong>User Name</strong>
-                <input type="text" name="Uname" id="Uname" placeholder="Username">
+                <input type="text" name="Uname" id="username" placeholder="Username">
                 <br><br>
                 <label><strong>Password</strong></label>
-                <input type="Password" name="Pass" id="Pass" placeholder="Password">
+                <input type="Password" name="Pass" id="password" placeholder="Password">
                 <br><br>
-                <input type="button" name="log" id="log" value="Log In">
+                <input type="button" name="log" id="log" onclick="getInfo()" value="Log In">
                 <br><br>
+                <div class="wrongLogin"><label id="print"> </label></div>
+                <br>
                 <input type="checkbox" id="check">Remember Me</input>
                 <br><br>
                 <a href="#"> Forgot Password</a>
             </form>
         </div>
     </div>
-
+</main>
 
     <script src="./Main.js"></script>
 </body>
+
 </html>
