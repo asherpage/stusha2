@@ -14,13 +14,13 @@ var objPeople = [
 ]
 
 function getInfo() {
-	var username = document.getElementById('username').value.toString();
-	var password = document.getElementById('password').value.toString();
+	var username = document.getElementById('Uname').value;
+	var password = document.getElementById('Pass').value;
 
 	for(var i = 0; i < objPeople.length; i++) {
 		// check is user input matches username and password of a current index of the objPeople array
 		if(username == objPeople[i].username && password == objPeople[i].password) {
-            location.href = "studentPage.html";
+            location.href = "stdsearch.html";
 			console.log(username + " is logged in!!!")
 			// stop the function if this is found to be true
 			return
@@ -34,7 +34,3 @@ function getInfo() {
 
     
 }
-var loader = document.getElementById("preloader")
-window.addEventListener("load", function(){
-	loader.style.display="none"
-})
