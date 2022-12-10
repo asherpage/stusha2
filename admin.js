@@ -32,5 +32,18 @@ function getInfo() {
     document.getElementById('print').innerHTML
                 = 'INVALID LOGIN';
 
-    
+ 
+}
+//search fucntion for student info
+const data =[{firstName:"John", lastName:"Doe", age:17, studentId:45  }]
+function search(srch){
+	
+	for(let k = 0; k < data.length; k++ ){
+		
+		if(data[k].studentId==Number(srch)){
+			console.log(data[k].studentId)
+			console.log(Number(srch))
+			document.getElementById("prnt").innerHTML=`<p>Id:${data[k].studentId}</p>`
+		}
+	}
 }
