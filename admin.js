@@ -35,15 +35,16 @@ function getInfo() {
  
 }
 //search fucntion for student info
-const data =[{firstName:"John", lastName:"Doe", age:17, studentId:45  }]
+const data =[{firstName:"| Name: John", lastName:"Doe |", age:"Age:15", studentId:45},{studentId:78 ,firstName:"Merik", lastName:"Kuhn", age: "Age:17", }]
 function search(srch){
-	
+	console.log(srch)
 	for(let k = 0; k < data.length; k++ ){
 		
 		if(data[k].studentId==Number(srch)){
-			console.log(data[k].studentId)
+			console.log(data[k])
 			console.log(Number(srch))
-			document.getElementById("prnt").innerHTML=`<p>Id:${data[k].studentId}</p>`
+			document.getElementById("prnt").innerHTML=`<p>Id:${data[k].studentId}   ${data[k].firstName} ${data[k].lastName} ${data[k].age}</p>`
+			
 		}
 	}
 }
