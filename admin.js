@@ -46,24 +46,42 @@ const data =[
 {studentId:8 ,firstName:"Blake", lastName:"Reed", age: "17",grade: "11th"},
 {studentId:9 ,firstName:"Emma", lastName:"Taylor", age: "18",grade: "12th"},
 {studentId:10 ,firstName:"Alexandra", lastName:"Reed", age: "17",grade: "11th"},
-{studentId:11 ,firstName:"Jadyn", lastName:"DeMarco", age: "16",grade: "10th"},
+{studentId:11 ,firstName:"Jadyn", lastName:"Demarco", age: "16",grade: "10th"},
 {studentId:12 ,firstName:"Jaci", lastName:"Robinson", age: "17",grade: "11th"}
 ]
 function search(srch){
+			document.getElementById("prnt").innerHTML=`No Student Found`
+		document.getElementById("prnt2").innerHTML=``
+		document.getElementById("prnt3").innerHTML=``
+		document.getElementById("prnt4").innerHTML=``
 	console.log(srch)
 	for(let k = 0; k < data.length; k++ ){
-		
+
 		if(data[k].studentId==Number(srch)){
 			console.log(data[k])
 			console.log(Number(srch))
-			document.getElementById("prnt").innerHTML=`<p>Id: ${data[k].studentId} | Name: ${data[k].firstName} ${data[k].lastName} | Age: ${data[k].age} | Grade: ${data[k].grade}</p>`
+			document.getElementById("prnt").innerHTML=`<p>Id: ${data[k].studentId}</p>`
 			
-		}
-				if(data[k].firstName==(srch)){
+		if(data[k].studentId==Number(srch)){
 			console.log(data[k])
-			console.log((srch))
-			document.getElementById("prnt").innerHTML=`<p>Id: ${data[k].studentId} | Name: ${data[k].firstName} ${data[k].lastName} | Age: ${data[k].age} | Grade: ${data[k].grade}</p>`
+			console.log(Number(srch))
+			document.getElementById("prnt2").innerHTML=`<p>Name: ${data[k].firstName} ${data[k].lastName}</p>`
 			
 		}
+		if(data[k].studentId==Number(srch)){
+			console.log(data[k])
+			console.log(Number(srch))
+			document.getElementById("prnt3").innerHTML=`Age: ${data[k].age}</p>`
+			
+		}
+		if(data[k].studentId==Number(srch)){
+			console.log(data[k])
+			console.log(Number(srch))
+			document.getElementById("prnt4").innerHTML=`Grade: ${data[k].grade}</p>`
+			
+		}
+		
+		
 	}
+}
 }

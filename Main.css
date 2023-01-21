@@ -109,6 +109,7 @@ table, th, td {
     height: 5px;
     font-size: 15px;
     padding: 0px,0px,0px,0px;
+    background-color: white;
 }
 #preloader{
     background: #000 url(./future.gif) no-repeat center;
@@ -124,14 +125,42 @@ img {
     margin-left: 5px;
 }
 
-.prnt{
-    width: 30%;
-    height:60%;
-}
 .lookUp{
     text-align: center;
     margin-top: 150px;  
 }
 #prnt{
+    padding-top: 10px;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+#prnt2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+}
+#prnt3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+}
+#prnt4{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+}
+.aboutUs{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.studentTable{
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0px 0px 5px grey;
+}
+.rowers{
+    background-color: white;
 }

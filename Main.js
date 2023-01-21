@@ -1,16 +1,52 @@
 var objPeople = [
-	{ // Object @ 0 index
-		username: "asher",
-		password: "page"
+	{ 
+		username: "JohnDoe",
+		password: "Student1"
 	},
-	{ // Object @ 1 index
-		username: "andrew68",
-		password: "1234"
+	{ 
+		username: "MerikKuhn",
+		password: "Student2"
 	},
-	{ // Object @ 2 index
-		username: "k-man",
-		password: "Bernie"
-	}
+	{ 
+		username: "AsherPage",
+		password: "Student3"
+	},
+	{ 
+		username: "AndrewSilaghi",
+		password: "Student4"
+	},
+	{ 
+		username: "AnthonyLucas",
+		password: "Student5"
+	},
+	{ 
+		username: "JordanReed",
+		password: "Student6"
+	},
+	{ 
+		username: "KyleSmith",
+		password: "Student7"
+	},
+	{ 
+		username: "BlakeReed",
+		password: "Student8"
+	},
+	{ 
+		username: "EmmaTaylor",
+		password: "Student9"
+	},
+	{ 
+		username: "AlexandraReed",
+		password: "Student10"
+	},
+	{ 
+		username: "JadynDemarco",
+		password: "Student11"
+	},
+	{ 
+		username: "JaciRobinson",
+		password: "Student12"
+	},
 ]
 
 function getInfo() {
