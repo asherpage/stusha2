@@ -75,6 +75,7 @@ body {
     padding: 0px 0px 20px 0px;
     box-shadow: 8px 8px 10px slategray;
 }
+
 .content{
     margin-top: 96px;
 }
@@ -163,4 +164,22 @@ img {
 }
 .rowers{
     background-color: white;
+}
+.name{
+    width: 125px;
+    border: .5px solid grey;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.sub{
+    padding: 10px 30px 10px 30px;
+    margin: 15px 0px 15px 0px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.sub:hover{
+    background-color:lightgrey;
 }
