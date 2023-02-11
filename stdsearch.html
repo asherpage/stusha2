@@ -22,11 +22,46 @@
         </header>
     <div class="lookUp"><input type="searchbar" id="srch" placeholder="Student ID"> <button onclick="search(document.getElementById('srch').value)">search student</button></div>
 
-<div id="prnt"></div>
-<div id="prnt2"></div>
-<div id="prnt3"></div>
-<div id="prnt4"></div>
-
+<div class="bc">
+<table style="width: 80%" class="studentTable">
+    <tr class="rowers">
+        <td class="c4" id="studentSpat">&nbsp;<br>&nbsp;</td>
+        <td id="idSpat"></td>
+        <td id="gradeSpat"></td>
+    </tr>
+    <tr class="topTable">
+        <th>classes</th>
+        <th>semester 1</th>
+        <th>semester 2</th>
+    </tr>
+    <tr class="rowers">
+        <td class="c1" id="classOne"></td>
+        <td id="g1s1">&nbsp;<br>&nbsp;</td>
+        <td id="g1s2"></td>
+    </tr>
+    <tr class="rowers">
+        <td class="c2" id="classTwo"></td>
+        <td id="g2s1">&nbsp;<br>&nbsp;</td>
+        <td id="g2s2"> </td>
+    </tr>
+    <tr class="rowers">
+        <td class="c3" id="classThree"></td>
+        <td id="g3s1">&nbsp;<br>&nbsp;</td>
+        <td id="g3s2"> </td>
+    </tr>
+    <tr class="rowers">
+        <td class="c4" id="classFour"></td>
+        <td id="g4s1">&nbsp;<br>&nbsp;</td>
+        <td id="g4s2"> </td>
+        <tr class="rowers">
+    </tr>
+</table>
+</div>
+<!-- <div class="bottomBox">
+            <div id="studentSpat"></div>
+            <div id="idSpat"></div>
+            <div id="gradeSpat"></div>
+        </div> -->
     <script src="./admin.js"></script>
 </body>
 </html>
