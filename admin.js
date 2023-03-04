@@ -34,6 +34,7 @@ function getInfo() {
 
  
 }
+<<<<<<< Updated upstream
 
 class person{
 	constructor(id,firstName,lastName,age,grade,classOne){
@@ -79,7 +80,29 @@ const data =[
 
 {studentId:9 ,firstName:"Emma", lastName:"Taylor", age: "18",grade: "12th",classOne:"Spanis 101-102H",classTwo:"",classThree:"",classFour:"",g1s1:"",g2s1:"",g3s1:"",g4s1:""},
 {studentId:10 ,firstName:"Alexandra", lastName:"Reed", age: "17",grade: "11th",classOne:"Forensic Science",classTwo:"",classThree:"",classFour:"",g1s1:"",g2s1:"",g3s1:"",g4s1:""}
+=======
+//search fucntion for student info
+let data =[
+	{studentId:1 , firstName:"John",lastName:"Doe",age:"14",grade: "9th"},
+{studentId:2 ,firstName:"Merik", lastName:"Kuhn", age: "17",grade: "11th"},
+{studentId:3 ,firstName:"Asher", lastName:"Page", age: "18",grade: "12th"},
+{studentId:4 ,firstName:"Andrew", lastName:"silaghi", age: "17",grade: "11th"},
+{studentId:5 ,firstName:"Anthony", lastName:"Lucas", age: "16",grade: "10th"},
+{studentId:6 ,firstName:"Jordan", lastName:"Reed", age: "16",grade: "10th"},
+{studentId:7 ,firstName:"Kyle", lastName:"Smith", age: "15",grade: "9th"},
+{studentId:8 ,firstName:"Blake", lastName:"Reed", age: "17",grade: "11th"},
+{studentId:9 ,firstName:"Emma", lastName:"Taylor", age: "18",grade: "12th"},
+{studentId:10 ,firstName:"Alexandra", lastName:"Reed", age: "17",grade: "11th"},
+{studentId:11 ,firstName:"Jadyn", lastName:"Demarco", age: "16",grade: "10th"},
+{studentId:12 ,firstName:"Jaci", lastName:"Robinson", age: "17",grade: "11th"}
+>>>>>>> Stashed changes
 ]
+
+// json data converion of array of object names and student data
+let myJSON = JSON.stringify(data)
+localStorage.setItem('myJSON');
+
+
 function search(srch){
 			document.getElementById("studentSpat").innerHTML=`No Student Found`
 		document.getElementById("idSpat").innerHTML=`1`

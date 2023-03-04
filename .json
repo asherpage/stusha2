@@ -1,0 +1,14 @@
+[
+	{"studentId":1 , "firstName":"John","lastName":"Doe","age":"14","grade": "9th"},
+{"studentId":2 ,"firstName":"Merik", "lastName":"Kuhn", "age": "17","grade": "11th"},
+{"studentId":3 ,"firstName":"Asher", "lastName":"Page", "age": "18","grade": "12th"},
+{"studentId":4 ,"firstName":"Andrew", "lastName":"silaghi", "age": "17","grade": "11th"},
+{"studentId":5 ,"firstName":"Anthony", "lastName":"Lucas", "age": "16","grade": "10th"},
+{"studentId":6 ,"firstName":"Jordan", "lastName":"Reed", "age": "16","grade": "10th"},
+{"studentId":7 ,"firstName":"Kyle", "lastName":"Smith", "age": "15","grade": "9th"},
+{"studentId":8 ,"firstName":"Blake", "lastName":"Reed", "age": "17","grade": "11th"},
+{"studentId":9 ,"firstName":"Emma", "lastName":"Taylor", "age": "18","grade": "12th"},
+{"studentId":10 ,"firstName":"Alexandra", "lastName":"Reed", "age": "17","grade": "11th"},
+{"studentId":11 ,"firstName":"Jadyn", "lastName":"Demarco", "age": "16","grade": "10th"},
+{"studentId":12 ,"firstName":"Jaci", "lastName":"Robinson", "age": "17","grade": "11th"}
+]
